@@ -1,0 +1,23 @@
+html, body {
+  overflow-x: hidden;
+}
+
+.footer {
+    background-color: rgb(245, 242, 242);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer p {
+  margin: 0;
+      color: #555 !important;
+
+}
+.islam{
+    text-decoration: underline;      color: #555 !important; 
+     /* pointer */
+    cursor: pointer; 
+}

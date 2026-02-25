@@ -1,0 +1,110 @@
+div{
+    box-sizing: border-box;
+}
+
+.home-title {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+    color: #333;
+}
+
+
+/* Hero Section */
+.header-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&h=400&fit=crop') center/cover;
+    color: white;
+    padding: 120px 20px;
+    text-align: start;
+    position: relative;
+    overflow: hidden;
+    min-height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* make the hero full-bleed across the viewport (not constrained by bootstrap Container) */
+    /* width: 100vw !important;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw; */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    /* max-width: 800px; */
+    margin: 0 7%;
+}
+
+.hero-title {
+    font-size: clamp(28px, 5vw, 40px);
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    animation: slideInDown 0.8s ease-out;
+}
+
+.hero-subtitle {
+    font-size: clamp(16px, 3vw, 18px);
+    margin-bottom: 30px;
+    line-height: 1.6;
+    width: 100%;
+    opacity: 0.95;
+    animation: slideInUp 0.8s ease-out;
+    margin-left: 0 !important;
+    max-width: 90vw;
+}
+
+
+
+@keyframes slideInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-hero {
+        padding: 80px 15px;
+        min-height: auto;
+    }
+    .hero-content {
+        margin: 0 5%;
+    }
+    .hero-title {
+        font-size: clamp(24px, 4vw, 32px);
+        margin-bottom: 15px;
+    }
+    .hero-subtitle {
+        font-size: clamp(14px, 2.5vw, 16px);
+    }
+}
+    

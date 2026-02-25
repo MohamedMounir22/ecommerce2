@@ -1,0 +1,21 @@
+.checkout-container {
+  padding: 40px;
+}
+
+.checkout-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.checkout-content {
+  display: flex;
+  gap: 30px;
+}
+
+.checkout-content > *:first-child {
+  flex: 2;
+}
+
+.checkout-content > *:last-child {
+  flex: 1;
+}
