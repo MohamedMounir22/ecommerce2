@@ -1,8 +1,12 @@
 
+
 // about us section
 import React from 'react';
 import './aboutUs.css';
-
+    import smartphonePlus from '../imgs/phone-02.jpg';
+import smartwatchUltra from '../imgs/watch-02.jpg';
+import jacket from '../imgs/jacket.jpg';
+import singleSofa from '../imgs/single-sofa-02.jpg';
 function AboutUsSection() {
     return (
         <div className='aboutUsContainer ' style={{ padding: '2rem' }}>
@@ -14,20 +18,20 @@ function AboutUsSection() {
             {/* cards of products types */}
                 <div className='productsCardsContainer d-flex flex-wrap justify-content-center gap-4'>
                     <div className='productCard '>
-                        <img src='\imgs\wireless-04.png' alt='Product 1' />
+                        <img src={smartphonePlus} alt='Product 1' />
                         <h5>Electronics</h5>
                     </div>
                     <div className='productCard'>
-                        <img src='\imgs\jacket.jpg' alt='Product 2' />
+                        <img src={jacket} alt='Product 2' />
                         <h5>Fashion</h5>
                     </div>
                     <div className='productCard'>
-                        <img src='\imgs\single-sofa-02.jpg' alt='Product 3' />
+                        <img src={singleSofa} alt='Product 3' />
                         <h5>Home & Garden</h5>
                     </div>
 
                     <div className='productCard'>
-                        <img src='.\imgs\watch-01.jpg' alt='Product 3' />
+                        <img src={smartwatchUltra} alt='Product 4' />
                         <h5>accessories</h5>
                     </div>
                 </div>

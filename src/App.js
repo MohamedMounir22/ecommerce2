@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route , HashRouter} from 'react-router-dom';
 import Header from './components/Header';
 import Home from './pages/Home';
 import ProductDetail from './pages/ProductDetail';
@@ -14,9 +14,10 @@ import CheckoutPage from './pages/CheckoutPage';
 import { Toaster } from 'react-hot-toast';
 
 
+
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Toaster position="top-center" />
       <Header />
       <main >
@@ -38,7 +39,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 

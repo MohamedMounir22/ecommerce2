@@ -4,6 +4,7 @@
 import React from 'react';
 import './registerPage.css';
 import { Navbar, Container, Nav, Form, Button, Badge } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function RegisterPage() {
     return (
@@ -18,7 +19,7 @@ function RegisterPage() {
                 <input type="email" placeholder="name@example.com" style={{  fontSize: '1rem' }} />
                 <h6>password</h6>
                 <input placeholder="password" rows="5" style={{  fontSize: '1rem' }}></input>
-                <p style={{ fontSize: '0.9rem' }}>already have account    <Nav.Link className='rebtn' href="/login" style={{ display: 'inline', padding: '0', fontSize: '0.9rem' , }}>login  </Nav.Link></p>
+                <p style={{ fontSize: '0.9rem' }}>already have account    <Link className='rebtn' to ="/login" style={{ display: 'inline', padding: '0', fontSize: '0.9rem' , }}>login  </Link></p>
                 <button type="submit" style={{  fontSize: '1rem', backgroundColor: '#555', color: '#fff', border: 'none', cursor: 'pointer' }}>Register</button>
                  
             </form>

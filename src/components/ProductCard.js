@@ -11,8 +11,8 @@ function ProductCard({ product }) {
   return (
         <div className="card">
   <img src={product.image} className="card-img" alt={product.name} />
-  <div className="card-body">
-    <h5 className="card-title text-center mx-auto">{product.name}</h5>
+  <div className="card-body Container py-0">
+    <h5 className="card-title text-center ">{product.name}</h5>
     <p className="card-desc">{product.description}</p>
   </div>
   <hr className='priceline'></hr>

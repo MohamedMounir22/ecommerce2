@@ -31,6 +31,15 @@
     gap: 8px;
     text-decoration: none;
 }
+/* Styles for the expanded mobile navbar menu */
+/* Apply styles only when the menu is open (.show) or animating (.collapsing) for a smooth transition */
+#basic-navbar-nav.show,
+#basic-navbar-nav.collapsing {
+    background-color: rgb(245, 242, 242);
+    /* padding: 1rem; */
+    margin-top: 0.5rem;
+    border-radius: 0.25rem;
+}
 
 
 .nav-links {
@@ -44,6 +53,8 @@
     font-weight: 600;
     font-size: 16px;
     transition: color 0.3s ease;
+        text-decoration: none;
+
 }
 
 .nav-item:hover {
