@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ecommerce2/static/css/main.8f2a8048.css",
+    "main.js": "/ecommerce2/static/js/main.1a8d04b4.js",
+    "static/js/453.89a537b4.chunk.js": "/ecommerce2/static/js/453.89a537b4.chunk.js",
+    "static/media/single-sofa-02.jpg": "/ecommerce2/static/media/single-sofa-02.97abc6d99fa23490e4e3.jpg",
+    "static/media/arm-chair-01.jpg": "/ecommerce2/static/media/arm-chair-01.89e1f025e35e0058bb85.jpg",
+    "static/media/phone-02.jpg": "/ecommerce2/static/media/phone-02.10477985f1c21ec02c4b.jpg",
+    "static/media/watch-01.jpg": "/ecommerce2/static/media/watch-01.edc39b7f8f5435c24e41.jpg",
+    "static/media/bootstrap-icons.woff?": "/ecommerce2/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/watch-04.jpg": "/ecommerce2/static/media/watch-04.887d0313ee3f076ec3f9.jpg",
+    "static/media/phone-01.jpg": "/ecommerce2/static/media/phone-01.d86035d9fda1b97694c9.jpg",
+    "static/media/watch-02.jpg": "/ecommerce2/static/media/watch-02.c68df91cf57fa2c349e6.jpg",
+    "static/media/bootstrap-icons.woff2?": "/ecommerce2/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/grey-knit-sweater-mens-fashion-winter-apparel-casual-wear-soft-texture-comfortable-clothing_191095-84711.avif": "/ecommerce2/static/media/grey-knit-sweater-mens-fashion-winter-apparel-casual-wear-soft-texture-comfortable-clothing_191095-84711.428bcf89391343b5c671.avif",
+    "static/media/wireless-02.png": "/ecommerce2/static/media/wireless-02.1af857e3e55314fe3c03.png",
+    "static/media/phone-03.png": "/ecommerce2/static/media/phone-03.3207c29a5ca1a8cd27cf.png",
+    "static/media/wireless-03.png": "/ecommerce2/static/media/wireless-03.102199ac2c306820fe70.png",
+    "static/media/watch-03.jpg": "/ecommerce2/static/media/watch-03.7043a15ec85229e8f674.jpg",
+    "static/media/wireless-01.png": "/ecommerce2/static/media/wireless-01.1a76d777727c50ca0294.png",
+    "index.html": "/ecommerce2/index.html",
+    "main.8f2a8048.css.map": "/ecommerce2/static/css/main.8f2a8048.css.map",
+    "main.1a8d04b4.js.map": "/ecommerce2/static/js/main.1a8d04b4.js.map",
+    "453.89a537b4.chunk.js.map": "/ecommerce2/static/js/453.89a537b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f2a8048.css",
+    "static/js/main.1a8d04b4.js"
+  ]
+}
